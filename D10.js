@@ -357,7 +357,7 @@ TextTd();
 */ function cancelLi() {
   let myList = document.getElementById("myList");
   while (myList.firstChild) {
-    myList.removeChild(element.firstChild);
+    myList.removeChild(myList.firstChild);
   }
 }
 
